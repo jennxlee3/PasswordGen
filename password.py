@@ -1,9 +1,10 @@
 import random
+import string
 
-upp = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-low = "abcdefghijklmnopqrstubwxyz"
-sym = "!@#$%^&*()_+-=[]{}|;:,.<>?/~`"
-digits = "0123456789"
+upp = string.ascii_uppercase
+low = string.ascii_lowercase
+sym = string.punctuation
+digits = string.digits
 
 
 user_input = input("Would you like a weak or strong password? ")
